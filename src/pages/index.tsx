@@ -127,7 +127,7 @@ export default function Index(props: Props) {
 				</p>
 
 				<ul className='grid grid-cols-3 gap-4 sm:grid-cols-4'>
-				<ListItem icon={SiDocker} text='Docker' />
+					<ListItem icon={SiDocker} text='Docker' />
 					<ListItem icon={SiNodeDotJs} text='Node.js' />
 					<ListItem icon={SiJava} text='Java' />
 					<ListItem icon={SiTypescript} text='TypeScript' />
