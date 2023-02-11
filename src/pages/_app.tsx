@@ -86,6 +86,9 @@ export default function App({Component, pageProps, router}: AppProps) {
 			<NavLink href='/about' closeMenu={closeMenu}>
 				/about
 			</NavLink>
+			<NavLink href='/talk' closeMenu={closeMenu}>
+				/talk
+			</NavLink>
 		</>
 	);
 
@@ -105,7 +108,7 @@ export default function App({Component, pageProps, router}: AppProps) {
 				<Toaster toastOptions={{position: 'top-left'}} />
 
 				<Head>
-					<title>Killerjet101</title>
+					<title>Conman</title>
 				</Head>
 
 				<AnimatePresence>
@@ -173,8 +176,7 @@ export default function App({Component, pageProps, router}: AppProps) {
 					</main>
 
 					<footer className='p-4 py-10 mx-auto mt-20 max-w-3xl border-t-2 border-gray-900/10 dark:border-white/10 opacity-50'>
-						<h1 className='text-3xl font-bold'>Killerjet101</h1>
-						<p>Software Engineer • {new Date().getFullYear()}</p>
+						<p>Software Engineer⠀•⠀{new Date().getFullYear()}⠀•⠀Credit:⠀<a href='https://github.com/alii/website' target='_blank' rel='noreferrer'>alistaiiiir</a></p>
 					</footer>
 				</div>
 

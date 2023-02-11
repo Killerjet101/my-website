@@ -15,7 +15,7 @@ export default class AlistairDocument extends Document {
 					<meta name='theme-color' content='#ffffff' />
 					<meta
 						name='description'
-						content='Killerjet101, Full–stack TypeScript engineer from the US'
+						content='Connor Stevenson, Full–stack TypeScript engineer from the US'
 					/>
 					<link rel='preconnect' href='https://fonts.gstatic.com' />
 					<link

@@ -15,16 +15,3 @@
 .eslintcache
 .next
 out
-
-# Yarn
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-
-# bun
-*.bun
-
-# Cloud9 IDE files
-.c9

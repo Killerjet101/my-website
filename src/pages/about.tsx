@@ -13,7 +13,7 @@ export default function AboutPage() {
 			</h1>
 			<div className='text-gray-900/30 hover:text-gray-900 dark:text-white/20 dark:hover:text-white/100 transition-all'>
 				<Image
-					alt='Some friends and I in London'
+					alt='Me and my troop at Lake Casitas'
 					src={Banner}
 					width={1000}
 					height={400}
@@ -21,7 +21,7 @@ export default function AboutPage() {
 					className='block object-cover rounded-xl border-2 border-white'
 				/>
 				<span className='text-sm not-sr-only'>
-					a trip to london with some friends
+					a trip to Lake Casitas with my Boy Scouts troop
 				</span>
 			</div>
 
@@ -42,6 +42,28 @@ export default function AboutPage() {
 					around and I take my{' '}
 					<a href='https://twitter.com/Killerjet101'>Twitter</a> presence very
 					seriously...
+				</p>
+
+				<h2 className='text-3xl font-bold'>
+					Boy Scouts
+				</h2>
+
+				<p>
+					I am currently in Troop-858 and am a Star Scout. I enjoy all the
+					fun activities we do especially camping and being outdoors. But it's only
+					fun with everyone there. I am the patrol leader of one of the patrols in
+					the troop and...
+				</p>
+
+				<h2 className='text-3xl font-bold'>
+					Music
+				</h2>
+
+				<p>
+					I listen to a lot of Spotify and have always had a passion for music
+					ever since I was young. Over the last 12 months, I've played the song
+					exactly times! Below you can find an up-to-date collection of my favourite
+					songs from the past ~4 weeks.
 				</p>
 			</div>
 		</div>
