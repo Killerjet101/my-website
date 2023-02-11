@@ -147,7 +147,7 @@ export default function Index(props: Props) {
 						SPBot
 					</a>{' '}
 					- we're developing and maintaining a Discord bot to help the community
-					with Suicide related issues. Below are some ofthe more popular 
+					with Suicide related issues. Below are some ofthe more popular
 					open source projects I've worked on. In total, the following repos have
 					earned me{' '}
 					{projects.reduce(
