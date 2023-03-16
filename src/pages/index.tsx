@@ -34,7 +34,7 @@ import {
 } from 'use-lanyard';
 import {PinnedRepo, useGitHubPinnedRepos} from '../hooks/github';
 import {ListItem} from '../components/list-item';
-import {DISCORD_ID} from '../server/constants';
+import {DISCORD_ID} from '../components/song';
 import {age} from '../util/time';
 import dayjs from 'dayjs';
 

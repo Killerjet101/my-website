@@ -5,7 +5,7 @@ import {RiPhoneLine, RiSendPlane2Line} from 'react-icons/ri';
 import {SiDiscord, SiTwitter, SiGmail, SiInstagram, SiFacebook} from 'react-icons/si';
 import {useLanyard} from 'use-lanyard';
 import {ListItem} from '../components/list-item';
-import {DISCORD_ID} from '../server/constants';
+import {DISCORD_ID} from '../components/song';
 import {fetcher} from '../util/fetcher';
 
 const statusMap = {
