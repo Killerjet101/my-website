@@ -14,18 +14,15 @@ import {
 	SiGit,
 	SiGithub,
 	SiDiscord,
-	SiJava,
+	SiJavascript,
 	SiPython,
 	SiHtml5,
 	SiCss3,
 	SiMongodb,
-	SiFirebase,
 	SiNextdotjs as SiNextDotJs,
 	SiNodedotjs as SiNodeDotJs,
 	SiReact,
 	SiTwitter,
-	SiTypescript,
-	SiYarn,
 	SiOracle,
 } from 'react-icons/si';
 import {GiSkateboard} from 'react-icons/gi';
@@ -37,7 +34,7 @@ import {
 } from 'use-lanyard';
 import {PinnedRepo, useGitHubPinnedRepos} from '../hooks/github';
 import {ListItem} from '../components/list-item';
-import {DISCORD_ID} from '../components/song';
+import {DISCORD_ID} from '../server/constants';
 import {age} from '../util/time';
 import dayjs from 'dayjs';
 
@@ -177,12 +174,11 @@ export default function Index(props: Props) {
 				<ul className='grid grid-cols-3 gap-4 sm:grid-cols-4'>
 					<ListItem icon={SiDocker} text='Docker' />
 					<ListItem icon={SiNodeDotJs} text='Node.js' />
-					<ListItem icon={SiJava} text='Java' />
-					<ListItem icon={SiTypescript} text='TypeScript' />
+					<ListItem icon={SiJavascript} text='Javascript' />
 					<ListItem icon={SiPython} text='Python' />
-					<ListItem icon={SiHtml5} text='HTML' />
+					{/* <ListItem icon={SiHtml5} text='HTML' />
 					<ListItem icon={SiCss3} text='CSS' />
-					<ListItem icon={SiReact} text='React.js' />
+					<ListItem icon={SiReact} text='React.js' /> */}
 					<ListItem icon={SiDiscord} text='Discord.js' />
 					<ListItem icon={SiOracle} text='Oracle' />
 					<ListItem icon={SiGit} text='Git' />

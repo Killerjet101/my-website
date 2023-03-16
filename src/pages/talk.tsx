@@ -1,12 +1,11 @@
-import {useRouter} from 'next/router';
+import useRouter from 'next/router';
 import React from 'react';
 import {toast} from 'react-hot-toast';
-import {HiOutlineMail} from 'react-icons/hi';
 import {RiPhoneLine, RiSendPlane2Line} from 'react-icons/ri';
-import {SiDiscord, SiTwitter, SiInstagram, SiFacebook} from 'react-icons/si';
+import {SiDiscord, SiTwitter, SiGmail, SiInstagram, SiFacebook} from 'react-icons/si';
 import {useLanyard} from 'use-lanyard';
 import {ListItem} from '../components/list-item';
-import {DISCORD_ID} from '../components/song';
+import {DISCORD_ID} from '../server/constants';
 import {fetcher} from '../util/fetcher';
 
 const statusMap = {
@@ -121,6 +120,9 @@ export default function Talk() {
 							}
 						/>
 						<ListItem icon={SiTwitter} text='Killerjet101' />
+						<ListItem icon={SiGmail} text='Kill3rjet101@gmail.com' />
+						<ListItem icon={RiPhoneLine} text='N/A' />
+						<ListItem icon={SiInstagram} text='N/A' />
 					</ul>
 				</div>
 			</div>
