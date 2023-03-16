@@ -1,4 +1,4 @@
-import useRouter from 'next/router';
+import {useRouter} from 'next/router';
 import React from 'react';
 import {toast} from 'react-hot-toast';
 import {RiPhoneLine, RiSendPlane2Line} from 'react-icons/ri';
