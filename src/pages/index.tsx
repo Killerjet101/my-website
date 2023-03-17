@@ -82,7 +82,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
                     GitHub
                 </a>
                 , so I can learn from others and showcase what I know. In total, all of my open sourced projects have
-                earnt me <span className="font-bold text-black dark:text-slate-200">{stats.stars}</span> stars on
+                earned me <span className="font-bold text-black dark:text-slate-200">{stats.stars}</span> stars on
                 GitHub, and <span className="font-bold text-black dark:text-slate-200">{stats.forks}</span> forks. Below
                 are some of my most popular repositories.
             </p>
