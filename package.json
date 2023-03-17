@@ -3,10 +3,12 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
+		"dev": "next dev",
+		"build": "next build",
+		"test": "next test",
+		"start": "next start",
+		"export": "next export",
+		"lint": "eslint . --fix"
     },
     "dependencies": {
         "@types/nprogress": "^0.2.0",
