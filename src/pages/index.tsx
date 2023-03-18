@@ -35,7 +35,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
             <h1 className="mt-36 text-3xl font-bold sm:text-4xl md:text-6xl">...oop! You found me. 😅</h1>
             <h1 className="text-3xl md:text-4xl mb-4">I'm Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(4)} years old</h1>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
-                I'm am also self-taught software engineer from the United States. I'm currently pursuing full-stack web
+                I am also a self-taught software engineer from the United States. I'm currently pursuing full-stack web
                 development to create stunning user experiences on the front-end, and scalable and secure infrastructure
                 on the backend.
             </p>
@@ -84,18 +84,21 @@ const Index = ({ stats, topRepos }: AppProps) => {
                 , so I can learn from others and showcase what I know. In total, all of my open sourced projects have
                 earned me <span className="font-bold text-black dark:text-slate-200">{stats.stars}</span> stars on
                 GitHub, and <span className="font-bold text-black dark:text-slate-200">{stats.forks}</span> forks. Below
-                are some of my most popular repositories.
+                are some of my pinned repositories that are popular or currently being worked on.
             </p>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 grid-rows-2 md:grid-rows-1 mb-12 gap-2">
                 {topRepos.map((repo: Record<string, any>) => {
                     return (
                         <RepoItem
-                            key={repo.name}
-                            name={repo.name}
+                            key={repo.repo}
+                            repo={repo.repo}
+                            owner={repo.owner}
                             description={repo.description}
-                            stars={repo.stargazers_count}
-                            forks={repo.forks_count}
+                            link={repo.link}
+                            stars={repo.stars}
+                            forks={repo.forks}
                             language={repo.language}
+                            color={repo.languageColor}
                         />
                     );
                 })}
@@ -106,13 +109,13 @@ const Index = ({ stats, topRepos }: AppProps) => {
 
 export async function getStaticProps() {
     const stats = await fetch(`https://api.github-star-counter.workers.dev/user/Killerjet101`).then(res => res.json());
-    const repos = await fetch(`https://api.github.com/users/Killerjet101/repos?type=owner&per_page=100`).then(res =>
+    const repos = await fetch(`https://gh-pinned-repos.egoist.dev/?username=Killerjet101`).then(res =>
         res.json()
     );
 
     const topRepos = repos
         .sort((a: Record<string, any>, b: Record<string, any>) => b.stargazers_count - a.stargazers_count)
-        .slice(0, 4);
+        .slice(0, 6);
 
     return {
         props: { stats, topRepos },

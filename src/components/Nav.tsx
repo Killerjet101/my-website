@@ -130,25 +130,6 @@ const Nav = () => {
                                     onClick={() => setMenuOpen(false)}
                                 />
                             </div>
-
-                            <div className="flex flex-row items-center justify-center gap-6 py-4">
-                                <LinkButton
-                                    href={"https://github.com/cnrad"}
-                                    icon={<SiGithub className="w-6 h-6 cursor-pointer" />}
-                                />
-                                <LinkButton
-                                    href={"https://twitter.com/notcnrad"}
-                                    icon={<SiTwitter className="w-6 h-6 cursor-pointer" />}
-                                />
-                                <LinkButton
-                                    href={"https://linkedin.com/in/cnrad"}
-                                    icon={<SiLinkedin className="w-6 h-6 cursor-pointer" />}
-                                />
-                                <LinkButton
-                                    href={"mailto:hello@cnrad.dev"}
-                                    icon={<FiMail className="w-6 h-6 cursor-pointer" />}
-                                />
-                            </div>
                         </motion.div>
                     </>
                 )}

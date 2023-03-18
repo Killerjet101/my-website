@@ -36,10 +36,10 @@ function MyApp({ Component, pageProps, router }: AppProps) {
                 <meta name="theme-color" content="#000000" />
                 <meta
                     name="keywords"
-                    content="cnrad, Conrad Crawford, Conrad, Crawford, web developer, github, typescript"
+                    content="Killerjet101, Connor Stevenson, Connor, Jet"
                 />
-                <meta name="description" content="Conrad Crawford - Software Engineer" />
-                <meta name="author" content="Conrad Crawford" />
+                <meta name="description" content="Connor Stevenson - Software Engineer" />
+                <meta name="author" content="Connor Stevenson" />
                 <link rel="icon" href="/icon.png" />
             </Head>
 
