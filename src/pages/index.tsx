@@ -33,7 +33,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
             className="mt-24 w-full mb-32"
         >
             <h1 className="mt-36 text-3xl font-bold sm:text-4xl md:text-6xl">...oop! You found me. 😅</h1>
-            <h1 className="text-3xl md:text-4xl mb-4">I am Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(4)} years old</h1>
+            <h1 className="text-3xl md:text-4xl mb-4">I'm Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(4)} years old</h1>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
                 I'm am also self-taught software engineer from the United States. I'm currently pursuing full-stack web
                 development to create stunning user experiences on the front-end, and scalable and secure infrastructure
@@ -82,7 +82,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
                     GitHub
                 </a>
                 , so I can learn from others and showcase what I know. In total, all of my open sourced projects have
-                earnt me <span className="font-bold text-black dark:text-slate-200">{stats.stars}</span> stars on
+                earned me <span className="font-bold text-black dark:text-slate-200">{stats.stars}</span> stars on
                 GitHub, and <span className="font-bold text-black dark:text-slate-200">{stats.forks}</span> forks. Below
                 are some of my most popular repositories.
             </p>

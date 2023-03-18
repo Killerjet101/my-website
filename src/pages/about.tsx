@@ -51,9 +51,7 @@ const About = () => {
 
 					<p>
 						I listen to a lot of Spotify and have always had a passion for music
-						ever since I was young. Over the last 12 months, I've played the song
-						exactly times! Below you can find an up-to-date collection of my favourite
-						songs from the past ~4 weeks.
+						ever since I was young...
 					</p>
 				</div>
 			</div>
