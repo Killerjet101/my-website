@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <div className="w-full flex flex-col items-start border-t-2 border-slate-800 px-4 py-8 dark:border-opacity-50 mb-20">
             <h1 className="text-black dark:text-white/50 text-2xl font-semibold">Connor Stevenson</h1>
-            <h2 className="text-black/60 dark:text-white/30 text-base mb-4">Software Engineer⠀•⠀{new Date().getFullYear()}⠀•⠀Credit:⠀<a href='https://github.com/alii/website' target='_blank' rel='noreferrer' className="font-semibold hover:underline">Alistair</a> & <a href='https://github.com/cnrad/cnrad.dev' target='_blank' rel='noreferrer' className="font-semibold hover:underline">Conrad</a></h2>
+            <h2 className="text-black/60 dark:text-white/30 text-base mb-4">Software Engineer⠀•⠀{new Date().getFullYear()}</h2>
         </div>
     );
 };
