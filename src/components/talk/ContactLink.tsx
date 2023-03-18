@@ -1,4 +1,5 @@
 import React, { ReactElement } from "react";
+import {ReactNode} from 'react';
 import { FiExternalLink } from "react-icons/fi";
 import { animated, useSpring } from "react-spring";
 import Link from "next/link";
@@ -14,7 +15,7 @@ const ContactLink = ({
     link,
     borderColor,
 }: {
-    name: string;
+    name: ReactNode;
     icon: ReactElement;
     link: string;
     borderColor?: string;
