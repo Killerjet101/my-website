@@ -32,8 +32,8 @@ const Index = ({ stats, topRepos }: AppProps) => {
             transition={{ ease: "easeOut", duration: 0.15 }}
             className="mt-24 w-full mb-32"
         >
-            <h1 className="mt-36 text-2xl font-bold sm:text-4xl md:text-6xl">oh.. You found me. 😅</h1>
-            <h3 className="text-2xl mb-4 font-simibold">I'm Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
+            <h1 className="mt-36 text-2xl font-bold sm:text-4xl md:text-6xl">Hey! Glad you found me</h1>
+            <h3 className="text-2xl mb-4 mt-2 font-simibold">I'm Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
                 I am also a self-taught software engineer from the United States. I'm currently pursuing full-stack web
                 development to create stunning user experiences on the front-end, and scalable and secure infrastructure
