@@ -2,7 +2,7 @@ import React from "react";
 import { useLanyard } from "use-lanyard";
 import MessageComponent from "../components/talk/MessageComponent";
 import ContactLink from "../components/talk/ContactLink";
-import { SiDiscord, SiGmail, SiInstagram } from 'react-icons/si';
+import { SiDiscord, SiGmail, SiInstagram, SiGithub } from 'react-icons/si';
 import { motion } from "framer-motion";
 import TimeStatus from "../components/talk/TimeStatus";
 
@@ -61,6 +61,13 @@ const Talk = () => {
                     name="Kill3rjet101@gmail.com"
                     icon={<SiGmail className="w-6 h-6 text-gray-400" />}
                     link="mailto:Kill3rjet101@gmail.com"
+                    borderColor="hover:border-gray-400/50"
+                />
+		
+		<ContactLink
+                    name="Killerjet101"
+                    icon={<SiGithub className="w-6 h-6 text-gray-400" />}
+                    link="https://github.com/Killerjet101"
                     borderColor="hover:border-gray-400/50"
                 />
 
