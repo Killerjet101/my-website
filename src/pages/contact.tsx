@@ -72,9 +72,9 @@ const Talk = () => {
                 />
 
                 <ContactLink
-                    name="Killerjet101"
+                    name="con.___.man"
                     icon={<SiInstagram className="w-6 h-6 text-gray-400" />}
-                    link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    link="https://www.instagram.com/con.___.man/"
                     borderColor="hover:border-gray-400/50"
                 />
             </div>
