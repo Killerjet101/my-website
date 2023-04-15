@@ -41,11 +41,8 @@ const About = () => {
 				</div>
 
 				<div className='space-y-8'>
-					<h2 className='text-3xl font-bold'>
-						Scouting
-					</h2>
-
-					<p>
+					<h2 className='font-medium text-3xl mb-4'>Scouting ⚜️</h2>
+					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
 						I am currently in Troop-858 and am a Star Scout. I enjoy all the
 						fun activities we do especially camping and being outdoors. But it's only
 						fun with everyone there. I am currently youth equipment manager but I have
@@ -59,31 +56,34 @@ const About = () => {
 						events, like a game night or bowling.
 					</p>
 
-					<h2 className='text-3xl font-bold'>
-						Music
-					</h2>
-
-					<p>
-						I listen to a lot of Spotify and have always had a passion for music
-						ever since I was young. I have experimented with digital music but the
-						main thing I have really done is play in a middle school band for 3 years
-						plus 3 years of Camarillo Music which is basically highschool synphonic/concert
-						band on top of that. Last year however I moved more twoards digital music class
-						to get more experiance in digital form of music instead.
+					<h2 className='font-medium text-3xl mb-4'>Technologies 💻</h2>
+					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
+						I'm passionate about everything technology; from designing and developing software, 
+						to understanding how the many moving parts of the internet work together, to 
+						cybersecurity, systems, programming, and so much more. I strive to learn more about 
+						these things every day, and utilize my knowledge to further understand <i>how</i> 
+						or <i>why</i> the technology around us works.
 					</p>
 
-					<h2 className='text-3xl font-bold'>
-						Art
-					</h2>
+					<h2 className='font-medium text-3xl mb-4'>Music 🎺🎵🎶</h2>
+					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
+						I listen to a lot of Spotify and have had a passion for music since I was young. I 
+						experimented with digital music for about a year, but the main thing I have done is 
+						play Trumpet for a total of 6 years, including 3 years of Las Colinas Middle School 
+						band and 3 years of Adolfo Camarillo High School band, also known as Camarillo Music, 
+						which is a department of the school filled with different bands ranging from marching, 
+						symphonic, concert, and mariachi. Last year, however, I switched to a digital music 
+						class to gain more experience with digital music instead.
+					</p>
 
-					<p>
-						With some of my friend's inspiration and encouragement, I am currently learning
-						more about art. Some of the tools I am using are Blender for modeling,
-						Photoshop, Krita for photo editing, and free-hand drawing in my spare time.
-						With these tools, I'm able to immerse myself in photography and the
-						fascinating world behind it. I have been surprised by how much I've
-						discovered so far! To see some of my work simply look below at the images to
-						see my current progress!
+					<h2 className='font-medium text-3xl mb-4'>Art 🎨</h2>
+					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
+						I'm currently learning more about art as well thanks to some of my friends' inspiration 
+						and encouragement. Blender for modeling, Photoshop, Krita for photo editing, and 
+						free-hand drawing are some of the tools I use to gain any experience I can. With these 
+						tools, I can immerse myself in photography and the fascinating world that surrounds it. 
+						I'm surprised at how much I've learned so far! Just look at the images below to see my 
+						current progress!
 					</p>
 					<div className='flex flex-row'>
 					<div className='flex flex-col mr-5'>

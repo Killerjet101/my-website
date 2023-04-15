@@ -33,22 +33,21 @@ const Index = ({ stats, topRepos }: AppProps) => {
             className="mt-24 w-full mb-32"
         >
             <h1 className="mt-36 text-2xl font-bold sm:text-4xl md:text-6xl">Hey! Glad you found me</h1>
-            <h3 className="text-2xl mb-4 mt-2 font-simibold">I'm Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
+            <h3 className="text-2xl mb-1 mt-2 font-simibold">I'm Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
-                I am also a self-taught software engineer from the United States. I'm currently pursuing full-stack web
-                development to create stunning user experiences on the front-end, and scalable and secure infrastructure
-                on the backend.
+                I am a self-taught software and mechanical engineer from the United States.
             </p>
 
             <h2 className="font-medium text-3xl mb-4">What I Do 💭</h2>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
-                I'm passionate about everything technology; from designing and developing software, to understanding how
-                the many moving parts of the internet work together, to cybersecurity, systems, programming, and so much
-                more. I strive to learn more about these things every day, and utilize my knowledge to further
-                understand <i>how</i> or <i>why</i> the technology around us works.
+                On the software front, I am currently pursuing full-stack web development in order to create stunning 
+                user experiences on the front end and scalable secure infrastructure on the back end. In terms of 
+                mechanics, I'm currently working on more car-related projects in order to be the one who innovates and 
+                ultimately fixes the problems we have today with modern cars, while also being capable to repair them 
+                and understand how they work.
             </p>
 
-            <h2 className="font-medium text-3xl mb-4">Technologies 💻</h2>
+            <h2 className="font-medium text-3xl mb-4">What I Know 💭</h2>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">
                 I use a variety of tools to streamline my development process and increase the quality of both my code,
                 and my projects. Below is a list of technologies and languages I've had experience with in the past, or
