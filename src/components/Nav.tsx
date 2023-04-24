@@ -76,6 +76,7 @@ const Nav = () => {
                     <LandingButton name="Home" link="/" selected={router.pathname === "/"} />
                     <LandingButton name="About" link="/about" selected={router.pathname === "/about"} />
                     <LandingButton name="Contact" link="/contact" selected={router.pathname === "/contact"} />
+                    <LandingButton name="Pronouns" link="https://en.pronouns.page/@Killerjet101/" selected={router.pathname === "https://en.pronouns.page/@Killerjet101/"} />
                     <LandingButton name="Something ;D" link="https://ipogger.aspy.dev/" selected={router.pathname === "https://ipogger.aspy.dev/"} />
                 </div>
             </motion.div>
@@ -130,6 +131,11 @@ const Nav = () => {
                                     selected={router.pathname === "/contact"}
                                     onClick={() => setMenuOpen(false)}
                                 />
+                                <MobileLandingButton
+                                    name="Pronouns"
+                                    link="https://en.pronouns.page/@Killerjet101/"
+                                    selected={router.pathname === "https://en.pronouns.page/@Killerjet101/"}
+                                    onClick={() => setMenuOpen(false)}
                                 <MobileLandingButton
                                     name="Something ;D"
                                     link="https://ipogger.aspy.dev/"
