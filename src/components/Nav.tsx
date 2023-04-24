@@ -136,6 +136,7 @@ const Nav = () => {
                                     link="https://en.pronouns.page/@Killerjet101/"
                                     selected={router.pathname === "https://en.pronouns.page/@Killerjet101/"}
                                     onClick={() => setMenuOpen(false)}
+                                />
                                 <MobileLandingButton
                                     name="Something ;D"
                                     link="https://ipogger.aspy.dev/"
