@@ -33,7 +33,15 @@ const Index = ({ stats, topRepos }: AppProps) => {
             className="mt-24 w-full mb-32"
         >
             <h1 className="mt-36 text-2xl font-bold sm:text-4xl md:text-6xl">Hey! Glad you found me</h1>
-            <h3 className="text-2xl mb-1 mt-2 font-simibold">I'm Connor and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
+            <h3 className="text-2xl mb-1 mt-2 font-simibold">I'm{" "}
+                <a
+                    href="https://en.pronouns.page/@Killerjet101"
+                    rel="noreferrer"
+                    className="font-semibold text-violet-500 hover:underline"
+                >
+                    Connor
+                </a> 
+		and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
                 I am a self-taught software and mechanical engineer from the United States.
             </p>
