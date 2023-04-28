@@ -76,6 +76,11 @@ const About = () => {
 						class to gain more experience with digital music instead.
 					</p>
 
+					<h2 className='font-medium text-3xl mb-4'>Langauges 🗣️</h2>
+					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
+						Native English speaker. Learning Spanish, Japanese, and German however.
+					</p>
+
 					<h2 className='font-medium text-3xl mb-4'>Art 🎨</h2>
 					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
 						I'm currently learning more about art as well thanks to some of my friends' inspiration 

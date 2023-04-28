@@ -41,7 +41,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
                 >
                     Connor
                 </a> 
-		 and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
+		        {" "}and currently {((Date.now() - new Date('2006-06-10').getTime()) / 3.154e+10).toPrecision(5)} years old</h3>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
                 I am a self-taught software and mechanical engineer from the United States.
             </p>
