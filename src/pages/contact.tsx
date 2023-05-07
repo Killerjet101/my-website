@@ -52,31 +52,43 @@ const Talk = () => {
                                 </span>
                             ) : null
                         }
+                        description="Discord"
                         icon={<SiDiscord className="w-6 h-6 text-[#5865F2]" />}
                         link="https://discord.com/users/224207524411211777"
                         borderColor="hover:border-[#5865F2]/50"
                     />
 
-                <ContactLink
-                    name="Kill3rjet101@gmail.com"
-                    icon={<SiGmail className="w-6 h-6 text-gray-400" />}
-                    link="mailto:Kill3rjet101@gmail.com"
-                    borderColor="hover:border-gray-400/50"
-                />
-		
-		<ContactLink
-                    name="Killerjet101"
-                    icon={<SiGithub className="w-6 h-6 text-gray-400" />}
-                    link="https://github.com/Killerjet101"
-                    borderColor="hover:border-gray-400/50"
-                />
+                    <ContactLink
+                        name="killerjet101"
+                        description="Instagram"
+                        icon={<SiInstagram className="w-6 h-6 text-gray-400" />}
+                        link="https://www.instagram.com/killerjet101/"
+                        borderColor="hover:border-gray-400/50"
+                    />
 
-                <ContactLink
-                    name="con.___.man"
-                    icon={<SiInstagram className="w-6 h-6 text-gray-400" />}
-                    link="https://www.instagram.com/con.___.man/"
-                    borderColor="hover:border-gray-400/50"
-                />
+                    <ContactLink
+                        name="con.___.man"
+                        description="Personal Instagram"
+                        icon={<SiInstagram className="w-6 h-6 text-gray-400" />}
+                        link="https://www.instagram.com/con.___.man/"
+                        borderColor="hover:border-gray-400/50"
+                    />
+
+                    <ContactLink
+                        name="Killerjet101"
+                        description="Github"
+                        icon={<SiGithub className="w-6 h-6 text-gray-400" />}
+                        link="https://github.com/Killerjet101"
+                        borderColor="hover:border-gray-400/50"
+                    />
+
+                    <ContactLink
+                        name="Kill3rjet101@gmail.com"
+                        description="Email"
+                        icon={<SiGmail className="w-6 h-6 text-gray-400" />}
+                        link="mailto:Kill3rjet101@gmail.com"
+                        borderColor="hover:border-gray-400/50"
+                    />
             </div>
         </div>
         </motion.div >

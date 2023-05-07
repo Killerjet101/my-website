@@ -11,11 +11,13 @@ const trans = (x: number, y: number, s: number): string =>
 
 const ContactLink = ({
     name,
+    description,
     icon,
     link,
     borderColor,
 }: {
     name: ReactNode;
+    description: string;
     icon: ReactElement;
     link: string;
     borderColor?: string;
@@ -42,6 +44,7 @@ const ContactLink = ({
             >
                 {icon}
                 <h1 className="font-medium text-sm text-black/80 dark:text-slate-400 mx-3">{name}</h1>
+                <p className="text-sm text-gray-800/70 dark:text-gray-100/70">{description}</p>
                 <FiExternalLink className="w-5 h-5 text-gray-600" />
             </animated.a>
         </Link>
