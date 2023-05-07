@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import {ReactNode} from 'react';
-import { FiExternalLink } from "react-icons/fi";
 import { animated, useSpring } from "react-spring";
 import Link from "next/link";
 import { classNames } from "../../util/classNames";
@@ -47,7 +46,6 @@ const ContactLink = ({
                     <h1 className="font-medium text-sm text-black/80 dark:text-slate-400 mx-3">{name}</h1>
                     <p className="text-sm text-black/50 dark:text-white/50 mx-3">{description}</p>
                 </div>
-                <FiExternalLink className="w-5 h-5 text-gray-600" />
             </animated.a>
         </Link>
     );
