@@ -67,19 +67,19 @@ const Talk = () => {
                     />
 
                     <ContactLink
-                        name="killerjet101"
-                        description="Instagram"
-                        icon={<SiInstagram className="w-6 h-6 text-gray-400" />}
-                        link="https://www.instagram.com/killerjet101/"
-                        borderColor="hover:border-gray-400/50"
-                    />
-
-                    <ContactLink
                         name="con.___.man"
-                        description="Personal Instagram"
-                        icon={<SiInstagram className="w-6 h-6 text-gray-400" />}
+                        description="Instagram"
+                        icon={<SiInstagram className="w-6 h-6" style="background: linear-gradient(90deg, #F58529, #DD2A7B, #8134AF);"/>}
                         link="https://www.instagram.com/con.___.man/"
                         borderColor="hover:border-gray-400/50"
+                    />
+			
+		    <ContactLink
+                        name="ccon.man"
+                        description="Snapchat"
+                        icon={<SiSnapchat className="w-6 h-6 text-[#fffc00]" />}
+                        link="https://www.snapchat.com/"
+                        borderColor="hover:border-[#fffc00]/50"
                     />
 
                     <ContactLink
@@ -88,14 +88,6 @@ const Talk = () => {
                         icon={<SiGithub className="w-6 h-6 text-gray-400" />}
                         link="https://github.com/Killerjet101"
                         borderColor="hover:border-gray-400/50"
-                    />
-
-                    <ContactLink
-                        name="ccon.man"
-                        description="Snapchat"
-                        icon={<SiSnapchat className="w-6 h-6 text-[#fffc00]" />}
-                        link="https://www.snapchat.com/"
-                        borderColor="hover:border-[#fffc00]/50"
                     />
 
                     <ContactLink
