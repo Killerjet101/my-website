@@ -93,7 +93,7 @@ const Talk = () => {
                     <ContactLink
                         name="ccon.man"
                         description="Snapchat"
-                        icon={<SiReddit className="w-6 h-6 text-[#fffc00]" />}
+                        icon={<SiSnapchat className="w-6 h-6 text-[#fffc00]" />}
                         link="https://www.snapchat.com/"
                         borderColor="hover:border-[#fffc00]/50"
                     />
