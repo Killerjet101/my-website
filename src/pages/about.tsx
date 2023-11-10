@@ -10,6 +10,9 @@ import donut from '../../public/art/Donut.png';
 import image1 from '../../public/art/image1.jpg';
 import image2 from '../../public/art/image2.jpg';
 import image3 from '../../public/art/image3.jpg';
+import car1 from '../../public/pics/52-pic1.jpg';
+import car2 from '../../public/pics/52-pic2.jpg';
+import car3 from '../../public/pics/52-pic3.jpg';
 
 dayjs.extend(relativeTime);
 
@@ -76,6 +79,38 @@ const About = () => {
 						share insights from both my professional experiences and the garage, where I'm 
 						meticulously working on the intricacies of classic car mechanics.
 					</p>
+					<div className='flex flex-row'>
+					<div className='flex flex-col mr-5'>
+						<Image
+							alt='car1'
+							src={car1}
+							width={230}
+							height={200}
+							placeholder='blur'
+							className='object-cover rounded-xl'
+						/>
+					</div>
+					<div className='flex flex-col mr-5'>
+						<Image
+							alt='car2'
+							src={car2}
+							width={200}
+							height={200}
+							placeholder='blur'
+							className='object-cover rounded-xl'
+						/>
+					</div>
+					<div className='flex flex-col mr-5'>
+						<Image
+							alt='car3'
+							src={car3}
+							width={240}
+							height={200}
+							placeholder='blur'
+							className='object-cover rounded-xl'
+						/>
+					</div>
+				</div>
 
 					<h2 className='font-medium text-3xl mb-4'>Music 🎺🎵🎶</h2>
 					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
