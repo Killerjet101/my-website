@@ -65,6 +65,18 @@ const About = () => {
 						or <i>why</i> the technology around us works.
 					</p>
 
+					<h2 className='font-medium text-3x1 mb-4'>Cars 🚗</h2>
+					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
+						My journey started in a senior-year high school auto tech class, leading to an 
+						exhilarating internship at BMW that exposed me to cutting-edge automotive technology. 
+						I proudly hold a G1 license in ASE, showcasing my dedication to excellence in the field. 
+						Beyond my professional pursuits, I'm deeply engrossed in a personal passion project – 
+						the restoration of a 1952 Ford F1. Currently stripped down to the frame, this classic 
+						beauty serves as my canvas for automotive creativity. Follow me on this platform as I 
+						share insights from both my professional experiences and the garage, where I'm 
+						meticulously working on the intricacies of classic car mechanics.
+					</p>
+
 					<h2 className='font-medium text-3xl mb-4'>Music 🎺🎵🎶</h2>
 					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
 						I listen to a lot of Spotify and have had a passion for music since I was young. I 
