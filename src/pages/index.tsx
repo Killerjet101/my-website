@@ -115,8 +115,8 @@ const Index = ({ stats, topRepos }: AppProps) => {
 };
 
 export async function getStaticProps() {
-    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/Killerjet101`).then(res => res.json());
-    const repos = await fetch(`https://gh-pinned-repos.egoist.dev/?username=Killerjet101`).then(res =>
+    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/fluzzeon`).then(res => res.json());
+    const repos = await fetch(`https://gh-pinned-repos.egoist.dev/?username=fluzzeon`).then(res =>
         res.json()
     );
 
