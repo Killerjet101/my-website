@@ -46,10 +46,10 @@ const About = () => {
 				<div className='space-y-8'>
 					<h2 className='font-medium text-3xl mb-4'>Scouting ⚜️</h2>
 					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
-						I am currently in Troop-858 and am a Star Scout. I enjoy all the
+						I am currently in Troop 858 and am a Life Scout. I enjoy all the
 						fun activities we do especially camping and being outdoors. But it's only
-						fun with everyone there. I am currently youth equipment manager but I have
-						been in all sorts of possitions like Patrol Leader, Assistant Patrol Leader,
+						fun with everyone there. I am currently the youth equipment manager but I have
+						been in all sorts of positions like Patrol Leader, Assistant Patrol Leader,
 						Den Cheif, and etc.
 						<br></br>
 						I am also part of Venturing Crew 9333. A Venture crew is the same as a Boy
@@ -62,13 +62,13 @@ const About = () => {
 					<h2 className='font-medium text-3xl mb-4'>Technologies 💻</h2>
 					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
 						I'm passionate about everything technology; from designing and developing software, 
-						to understanding how the many moving parts of the internet work together, to 
+						to understand how the many moving parts of the internet work together, to 
 						cybersecurity, systems, programming, and so much more. I strive to learn more about 
 						these things every day, and utilize my knowledge to further understand <i>how</i> 
 						or <i>why</i> the technology around us works.
 					</p>
 
-					<h2 className='font-medium text-3x1 mb-4'>Cars 🚗</h2>
+					<h2 className='font-medium text-3xl mb-4'>Cars 🚗</h2>
 					<p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
 						My journey started in a senior-year high school auto tech class, leading to an 
 						exhilarating internship at BMW that exposed me to cutting-edge automotive technology. 
