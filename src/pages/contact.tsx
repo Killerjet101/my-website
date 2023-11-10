@@ -83,10 +83,10 @@ const Talk = () => {
                     />
 
                     <ContactLink
-                        name="Killerjet101"
+                        name="fluzzeon"
                         description="Github"
                         icon={<SiGithub className="w-6 h-6 text-gray-400" />}
-                        link="https://github.com/Killerjet101"
+                        link="https://github.com/fluzzeon"
                         borderColor="hover:border-gray-400/50"
                     />
 
