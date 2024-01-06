@@ -2,7 +2,7 @@ import React from "react";
 import { useLanyard } from "use-lanyard";
 import MessageComponent from "../components/talk/MessageComponent";
 import ContactLink from "../components/talk/ContactLink";
-import { SiDiscord, SiGmail, SiInstagram, SiGithub, SiReddit, SiSnapchat } from 'react-icons/si';
+import { SiDiscord, SiGmail, SiInstagram, SiGithub, SiReddit } from 'react-icons/si';
 import { motion } from "framer-motion";
 import TimeStatus from "../components/talk/TimeStatus";
 
@@ -72,14 +72,6 @@ const Talk = () => {
                         icon={<SiInstagram className="w-6 h-6 text-gray-400"/>}
                         link="https://www.instagram.com/con.___.man/"
                         borderColor="hover:border-gray-400/50"
-                    />
-			
-		    <ContactLink
-                        name="ccon.man"
-                        description="Snapchat"
-                        icon={<SiSnapchat className="w-6 h-6 text-[#fffc00]" />}
-                        link="https://www.snapchat.com/"
-                        borderColor="hover:border-[#fffc00]/50"
                     />
 
                     <ContactLink
