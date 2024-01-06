@@ -67,14 +67,6 @@ const Talk = () => {
                     />
 
                     <ContactLink
-                        name="con.___.man"
-                        description="Instagram"
-                        icon={<SiInstagram className="w-6 h-6 text-gray-400"/>}
-                        link="https://www.instagram.com/con.___.man/"
-                        borderColor="hover:border-gray-400/50"
-                    />
-
-                    <ContactLink
                         name="fluzzeon"
                         description="Github"
                         icon={<SiGithub className="w-6 h-6 text-gray-400" />}
